@@ -1,0 +1,40 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Coverage
+coverage/
+
+# Cache
+.cache/
+.eslintcache
+
+# Docker (optional)
+.dockerignore
+
+# Prisma / DB (if added later)
+prisma/dev.db
