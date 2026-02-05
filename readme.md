@@ -1,7 +1,3 @@
-Below is the **same README, fully clean Markdown (`.md`)**, ready to paste directly into `README.md` 👇
-(No changes in content — just properly formatted Markdown.)
-
----
 
 ```md
 # 🚜 FarmLokal – Backend Engineering Assignment
@@ -274,14 +270,14 @@ Primary focus was placed on:
 This project was built to resemble **real startup backend systems**, not a toy assignment.
 Every decision prioritizes **clarity, scalability, and reliability**.
 
-```
+
 🔍 API Discovery & Quick Testing
 
 To make testing easy for reviewers and users, the root endpoint (/) exposes a self-documenting response with commonly used API links.
 
 Root Endpoint
 GET /
-
+```
 Sample Response
 {
   "status": "success",
@@ -296,7 +292,7 @@ Sample Response
     "productsSort": "/api/products?sort=price&limit=10"
   }
 }
-
+```
 Purpose
 
 Provides instant confirmation that the service is live
@@ -306,5 +302,5 @@ Makes core APIs discoverable without reading documentation
 Allows evaluators to test functionality within seconds
 
 This approach improves developer experience and mirrors production-grade API design practices.
----
+
 
