@@ -1,4 +1,4 @@
-import { redis } from "../config/reedis"
+import { redis } from "../config/redis"
 
 export async function acquireLock(key: string, ttl = 5000) {
   return redis.set(key, "locked", "PX", ttl, "NX");

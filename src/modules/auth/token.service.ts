@@ -1,4 +1,4 @@
-import { redis } from "../../config/reedis"
+import { redis } from "../../config/redis"
 import { fetchOAuthToken } from "./auth.client";
 import { acquireLock, releaseLock } from "../../utils/redisLock";
 

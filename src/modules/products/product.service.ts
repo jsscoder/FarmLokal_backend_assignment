@@ -1,4 +1,4 @@
-import { redis } from "../../config/reedis";
+import { redis } from "../../config/redis";
 import { fetchProducts } from "./product.repo";
 
 export async function getProducts(params: any) {
